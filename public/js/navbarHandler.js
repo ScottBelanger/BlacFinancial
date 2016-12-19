@@ -4,6 +4,7 @@
     $('#navbarSolid').fadeOut();
     $(function () {
         $(window).scroll(function () {
+        console.log("working");
             var scroll = $(window).scrollTop();
             
             if (scroll > 600) {
